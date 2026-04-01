@@ -50,3 +50,26 @@ English Janala is a frontend-based learning platform where users can explore voc
 ---
 
 ## 📂 Project Structure
+English Janala/
+│
+├── assets/ # Images and icons
+├── script/
+│ └── script.js # JavaScript logic
+├── styles/
+│ └── style.css # Custom styles
+├── index.html # Main file
+└── README.md
+
+
+---
+
+## ⚙️ How It Works
+
+1. Lessons are loaded dynamically using JavaScript  
+2. User selects a lesson  
+3. Vocabulary data is fetched and displayed  
+4. Clicking a word opens a modal with details  
+5. UI updates dynamically without page reload  
+
+---
+
