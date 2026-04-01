@@ -1,116 +1,52 @@
-# ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
+# 📘 English Janala – Interactive English Learning Platform
+
+An interactive and responsive web application designed to help users learn English vocabulary through structured lessons and dynamic UI interaction.
 
 ---
 
-## ⚡ API Endpoints
+## 🌐 Live Demo
 
-1. Get ⚡ All Levels
-
-```bash
-https://openapi.programming-hero.com/api/levels/all
-```
-
-1. Get ⚡ Words by Levels <br/>
-   https:// openapi.programming-hero.com/api/level/{id}
-
-```bash
-https://openapi.programming-hero.com/api/level/5
-```
-
-1. Get ⚡ Words Detail <br/>
-   https:// openapi.programming-hero.com/api/word/{id}
-
-```bash
-https://openapi.programming-hero.com/api/word/5
-```
-
-1. Get ⚡ All Words <br/>
-
-```bash
-https://openapi.programming-hero.com/api/words/all
-```
-
-# Work To do
-
-### 1. Show Levels on The UI
-
-- [ ] Show a center-aligned heading as Figma
+🔗 https://farihasanji.github.io/English_Janala/
 
 ---
 
-- [ ] Create dynamically generated buttons from **API-01** for each lesson
-- [ ] Lesson Buttons will be displayed on page load
+## 🎯 Project Overview
+
+English Janala is a frontend-based learning platform where users can explore vocabulary through lesson-based navigation. The project focuses on building a real-world interactive UI using **vanilla JavaScript**, without any frameworks.
 
 ---
 
-### 2. Show Word Cards Based on Level
+## ✨ Features
 
-- [ ] Show a default text that will be displayed in the Vocabulary section initially
-- [ ] on Clicking a Specific Lesson Button Load All the words from **API-02**
-- [ ] Display all words for a selected lesson in a card format, showing:
-
-  - [ ] Word
-  - [ ] Word meaning & pronunciation
-  - [ ] Two buttons with relevant icons as per Figma
-
-- [ ] Show **\*No Word Found** message if no words exist for a lesson
+- 📚 Lesson-based vocabulary learning system  
+- ⚡ Dynamic content rendering without page reload  
+- 🧠 Interactive modal for word details  
+- 🎨 Responsive UI using Tailwind CSS & DaisyUI  
+- 📱 Mobile-friendly design  
+- 🔄 Loading spinner for better user experience  
 
 ---
 
-- [ ] Create functionality to highlight the active lesson button
+## 🧠 Concepts Used
+
+- DOM Manipulation  
+- Event Handling  
+- Fetch API  
+- Asynchronous JavaScript (async/await)  
+- Responsive Web Design  
 
 ---
 
-### 3. Use Different Color on The Active Level Button
+## 🛠️ Technologies Used
 
-- [ ] After Successfully Loading words of a level , diffirentiate the button so user can understand which button is active
-
-### 4. Vocabulary Details
-
-- [ ] Create functionality to open a modal when clicking the details icon
-- [ ] Data will be load from **API-03**
-- [ ] modal will displays:
-  - [ ] Word with pronunciation
-  - [ ] Example sentence
-  - [ ] Synonyms
-  - [ ] A "Complete Learning" button to close the modal
-
-### 5. Handling Invalid Data
-
-- [ ] avoid displaying falsy values like `undefined` or `null`
-- [ ] display relevant words if no data is found
-
-### 6. Loading Spinner
-
-- [ ] Create a loading spinner that will be display when vocabulary is loading from API
-
-### 7. Implement Search Functionality
-
-- [ ] Take a input Box.
-- [ ] on Changing value It will Search word and show in the UI.
-- [ ] If anyone Do search reset active button
-
-### 8. Save Word Feature
-
-- [ ] in the UI of Card add a button `Heart icon`
-- [ ] on Clicking it. Store the Word in the Saved Box
-- [ ] Show Saved words in a Different Section.
-
-### 9. Speak your Vocabularies
-
-- [ ] Create functionality for voice pronunciation of vocabulary words
-- [ ] Use below function and implement on clicking sound icon
-
-```js
-function pronounceWord(word) {
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = "en-EN"; // English
-  window.speechSynthesis.speak(utterance);
-}
-```
-
-For More >> you can explore this implementation 👉 [https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ](https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ)
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- Tailwind CSS  
+- DaisyUI  
+- Font Awesome  
+- Google Fonts  
 
 ---
-Bonus : How to create Private Repository for next assignments
-## Test Repo - :  https://classroom.github.com/a/Fgjib-lr
+
+## 📂 Project Structure
